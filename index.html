@@ -4,29 +4,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Home-PS50YT</title>
 <style>
-body {margin:0;}
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
+div.scrollmenu {
   background-color: #333;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  overflow: auto;
+  white-space: nowrap;
 }
 
-li {
-  float: left;
-}
-
-li a {
-  display: block;
+div.scrollmenu a {
+  display: inline-block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px;
   text-decoration: none;
+}
+
+div.scrollmenu a:hover {
+  background-color: #777;
 }
 
 body {
